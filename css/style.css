@@ -28,27 +28,27 @@ h2 {
 .circle1 {
     height: 500px;
     width: 500px;
-    background-color: #009FE3;
+    background-color: #114b5f;
 }
 
 .circle2 {
     height: 400px;
     width: 400px;
-    background-color: #445261;
+    background-color: #1a936f;
     top: 50px;
     left: 50px;
 }
 .circle3 {
     height: 300px;
     width: 300px;
-    background-color: #EFB920;
+    background-color: #88d498;    
     top: 100px;
     left: 100px;
 }
 .circle4 {
     height: 200px;
     width: 200px;
-    background-color: #23BBBB;
+    background-color: #c6dabf;
     top: 150px;
     left: 150px;
 }
@@ -57,7 +57,7 @@ h2 {
     border-radius: 25%;
     box-sizing: border-box;
     position: absolute;
-    background-color: #E6ECF0;
+    background-color: #f3e9d2;
     height: 80px;
     width: 80px;
     top: 210px;
