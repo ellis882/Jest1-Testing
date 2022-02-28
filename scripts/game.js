@@ -8,7 +8,8 @@ let game = {
     choices: ["button1", "button2", "button3", "button4"],
 };
 
-
+/* reset score to zero, clear playerMoves array */
+/* clear currentGame array */
 function newGame() {
     game.currentGame = [];
     game.playerMoves = [];
@@ -32,6 +33,9 @@ function newGame() {
     addTurn();
 }
 
+/* clear playerMoves array */
+/* randomly add button id to currentGame array */
+/* call showTurn function */
 function addTurn() {
     game.playerMoves = [];
     game.currentGame.push(game.choices[(Math.floor(Math.random() * 4))]);
@@ -52,6 +56,7 @@ function showTurns() {
     }, 800);
 }
 
+/* add and remove light of circle */
 function lightsOn(circ) {
     document.getElementById(circ).classList.add("light");
     setTimeout(() => {
@@ -76,6 +81,7 @@ function playerTurn() {
     }
 }
 
+/* shows the score in the middle of the circle */
 function showScore() {
     document.getElementById("score").innerText = game.score;
 }
