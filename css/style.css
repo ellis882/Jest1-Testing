@@ -57,7 +57,7 @@ h2 {
     border-radius: 25%;
     box-sizing: border-box;
     position: absolute;
-    background-color: #f3e9d2;
+    background-color:  #E6ECF0;
     height: 80px;
     width: 80px;
     top: 210px;
@@ -71,11 +71,11 @@ h2 {
 .button {
     background-color: #FF5A60;
     color: #FFF;
-    border: 0;
+    border: solid #114b5f 2px;
     height: 40px;
     width: 160px;
     border-radius: 5px;
-    margin: 0 auto;
+    margin: 0 auto;        
     display: block;
     top: 550px;
     position: relative;
